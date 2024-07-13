@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'> -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="maidiv">
+        <div class="navbar">
+            <div class="banner">
+                <img src="/srmist.jpg" alt="">
+                <p>Student portal</p>
+            </div>
+            <div class="logout">
+                <i class="fa-solid fa-right-from-bracket"></i>
+                <p>Log-Out</p>
+            </div>
+            <div class="hamburger">
+                <i class="fa-solid fa-bars" id="menubar"></i>
+            </div>
+        </div>
+        <div class="content" >
+            <div class="sidebar" id="sidebar">
+                <div class="scrollbox">
+                    <div class="scrollbox-inner">
+                        <a href="/index.html"><i class="fa-solid fa-gauge"></i><p>Dashboard</p></a>
+                            <a href="/fees-payment.html"><i class="fa-regular fa-newspaper"></i><p>Fee Payment</p></a>
+                            <a href="/personal_detail.html"><i class="fa-solid fa-user"></i></i><p>Personal Details</p></a>
+                            <a href="/Scholarship_Renewal_Process.html"><i class="fa-regular fa-newspaper"></i><p>Scholarship Renewal Process</p></a>
+                            <a href="/End_sem_feedback.html"><i class="fa-regular fa-newspaper"></i><p>End Sem Feedback</p></a>
+                            <a href="/Course-list.html"><i class="fa-solid fa-book"></i><p>Course List</p></a>
+                            <a href="/Grade-marks.html"><i class="fa-regular fa-newspaper"></i><p>Grade / Mark & Credit</p></a>
+                            <a href="/Exam-revalution.html"><i class="fa-regular fa-newspaper"></i><p>Exam Revaluation Results</p></a>
+                            <a href="/Attendance.html"><i class="fa-solid fa-calculator"></i><p>Attendance Details</p></a>
+                            <a href="/provitonal-result.html"><i class="fa-regular fa-newspaper"></i></i><p>Exam Provisional Results</p></a>
+                            <a href="/timetable.html"><i class="fa-solid fa-clock"></i><p>Timetable</p></a>
+                            <a href="/internal-marks.html"><i class="fa-solid fa-server"></i><p>Internal Mark Details</p></a>
+                            <a href="/Hostel_booking.html"><i class="fa-solid fa-bed"></i><p>Hostel Booking</p></a>
+                            <a href="/Hostel_details.html"><i class="fa-solid fa-bed"></i><p>Hostel Details</p></a>
+                            <a href="Transport-details.html"><i class="fa-solid fa-bus"></i><p>Transport Details</p></a>
+                            <a href="/Finance-details.html"><i class="fa-solid fa-receipt" style="margin-left: 3px;"></i><p style="margin-left: 3px;">Finance Details</p></a>
+                            <a href="/ABC-card.html"><i class="fa-solid fa-book" style="margin-left: 3px;"></i><p>ABC Entry Request</p></a>
+                            <a href="/exam-hallticket.html"><i class="fa-regular fa-newspaper margin-left3px" ></i><p>Exam HallTicket</p></a>
+                            <a href="/photo-degree-certificate.html"><i class="fa-regular fa-newspaper margin-left3px" ></i><p>Photo for Degree certificate</p></a>
+                            <a href="/Subscribe-request.html"><i class="fa-regular fa-newspaper margin-left3px" ></i><p>Scribe Request</p></a>
+                            <a href="/rrrr.html"><i class="fa-regular fa-newspaper margin-left3px" ></i><p>Review/Revaluation/Retotaling Registration</p></a>
+                            <a href="/name-chnage.html"><i class="fa-regular fa-newspaper margin-left3px" ></i><p> Name Change - Gazette </p></a>
+                            <a href="/Community.html"><i class="fa-solid fa-file margin-left:3px" ></i><p>Community Certificate </p></a>
+                            <a href="/Student-review-feedback.html"><i class="fa-solid fa-user margin-left:3px" ></i><p>Student Review Feedback  </p></a>
+                            <a href="#"><i class="fa-solid fa-right-from-bracket margin-left:3px" ></i><p>Logout </p></a>
+                    </div>
+                </div>
+            </div>
+            <div class="dashboard" id="bgcolor" style="margin-top: 55px; width: 100%;">
+                <div class="grade-nav" style="background-color: #dbe7e7; width: 100%;  display: flex; flex-direction: column; border-bottom: 2px solid #c0c2c4; padding-left: 0px;">
+                    <div style="display: flex;" >
+                        <div id="Hostle1" style="font-size: 14px; color: blue; padding: 7.5px 0px; margin: 0px 15px; font-weight: 600; border-bottom: 2px solid blue;">Payment Transection Log</div>
+                    </div>
+                    <div style="display: flex;">
+                        <div id="Hostle2" style="font-size: 14px; color: #69707a; padding: 7.5px 0px; margin: 0px 15px; font-weight: 600;">Hostel Booking Details</div>
+                    </div>
+                    <div style="display: flex;">
+                        <div id="Hostle3" style="font-size: 14px; color: #69707a; padding: 7.5px 0px; margin: 0px 15px; font-weight: 600;">Hostel Cancellation</div>
+
+                    </div>
+                </div>
+                <div class="hostel-board" style="width: 95%;">
+                        <div id="Hostle-Card-1" class="hostel-card">
+                            <div class="hostel-card-header">
+                                <p>Hostel details</p>
+                            </div>
+                            <div class="hostel-card-content">
+                                <div class="meta-data">
+                                    <div class="heading">
+                                        <p> <br> <br> Verify</p>
+                                        <p> <br>Student <br>Id</p>
+                                        <p style="white-space: nowrap;"> <br> <br>SRM Transection ID</p>
+                                        <p style="margin-left: 185px;">Bank <br>Transection Id </p>
+                                        <p style="margin-left: 40px;"><br>Total <br>Amount</p>
+                                        <p> <br>Payment <br>Status</p>
+                                        <p><br> Transection <br> Date</p>
+                                        <p style="margin-left: 10px;"><br> Payment <br>Gateway</p>
+                                    </div>
+                                </div>
+                                <div class="data">
+                                    <p style="margin-left: 10px;">-</p>
+                                    <p style="margin-left: 110px;color: blue;">600605</p>
+                                    <p style="margin-left: 55px;">600650S24062024060422214R458</p>
+                                    <p style="margin-left: 50px;">417631053226</p>
+                                    <p style="margin-left: 55px;">60000</p>
+                                    <p style="margin-left: 70px;">Success <br>- No <br> Error</p>
+                                    <p style="margin-left: 50px;  white-space: nowrap;">24-06-2024</p>
+                                    <p style="margin-left: 33px;">Pay U (CUB)</p>
+                                </div>
+                                <div class="data">
+                                    <p style="margin-left: 10px;">-</p>
+                                    <p style="margin-left: 110px;color: blue;">600605</p>
+                                    <p style="margin-left: 55px;">600650S24062024060422214R458</p>
+                                    <p style="margin-left: 50px;">417631053226</p>
+                                    <p style="margin-left: 55px;">60000</p>
+                                    <p style="margin-left: 70px;">Success <br>- No <br> Error</p>
+                                    <p style="margin-left: 50px;  white-space: nowrap;">24-06-2024</p>
+                                    <p style="margin-left: 33px;">Pay U (CUB)</p>
+                                </div>
+                                <div class="data">
+                                    <p style="margin-left: 10px;">-</p>
+                                    <p style="margin-left: 110px;color: blue;">600605</p>
+                                    <p style="margin-left: 55px;">600650S24062024060422214R458</p>
+                                    <p style="margin-left: 50px;">417631053226</p>
+                                    <p style="margin-left: 55px;">60000</p>
+                                    <p style="margin-left: 70px;">Success <br>- No <br> Error</p>
+                                    <p style="margin-left: 50px;  white-space: nowrap;">24-06-2024</p>
+                                    <p style="margin-left: 33px;">Pay U (CUB)</p>
+                                </div>
+                                <div class="data">
+                                    <p style="margin-left: 10px;">-</p>
+                                    <p style="margin-left: 110px; color: blue;">600605</p>
+                                    <p style="margin-left: 55px;">600650S24062024060422214R458</p>
+                                    <p style="margin-left: 50px;">417631053226</p>
+                                    <p style="margin-left: 55px;">60000</p>
+                                    <p style="margin-left: 70px;">Success <br>- No <br> Error</p>
+                                    <p style="margin-left: 50px;  white-space: nowrap;">24-06-2024</p>
+                                    <p style="margin-left: 33px;">Pay U (CUB)</p>
+                                </div>
+                            </div>
+                        </div>
+                
+
+                <div id="Hostle-Card-2" class="hostel-card">
+                    <div class="hostel-card-header">
+                        <p>Hostel Details</p>
+                    </div>
+                    <div class="hostel-card-content">
+                        <div class="meta-data">
+                            <div class="heading">
+                                <p>Hostel <br> Name</p>
+                                <p>Room <br>No.</p>
+                                <p>Allocated <br> Date</p>
+                                <p>Academic <br> Year</p>
+                            </div>
+                        </div>
+                        <div class="hstl-data">
+                            <p style="margin-left: 15px;">Oori</p>
+                            <p style="margin-left: 82px;">410</p>
+                            <p style="margin-left: 88px;">14-july- <br> 2023</p> 
+                            <p style="margin-left: 60px;">2023- <br> 2024</p>
+                        </div>
+                        <div class="hstl-data">
+                            <p style="margin-left: 15px;">Oori</p>
+                            <p style="margin-left: 80px;">306</p>
+                            <p style="margin-left: 84px;">04-june- <br> 2024</p> 
+                            <p style="margin-left: 48px;">2024- <br> 2025</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="Hostle-Card-3" class="hostel-card">
+                    <div class="hostel-card-header">
+                        <p>Hostel Details</p>
+                    </div>
+                    <div class="hostel-card-content">
+                        <h3 style="color: #2d2d2e; margin-top: 50px;">Please contact your hostel office for canceling the room</h3>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+    
+    <script>
+        const menuIcon = document.getElementById('menubar');
+        const sidebar = document.getElementById('sidebar');
+        const colorbg = document.getElementById('nav-color') 
+        const colorbg1 = document.getElementById('nav-color1') 
+
+        menuIcon.addEventListener('click', () => {
+            if (sidebar.style.left === '-250px') {
+                sidebar.style.left = '0';
+                // colorbg.style.opacity = 0.22;
+                sidebar.style.paddingRight = '4px'
+                
+            } else {
+                sidebar.style.left = '-250px';
+                // colorbg.style.opacity = 1;
+                sidebar.style.paddingRight = '0px'
+            }
+            
+        });
+
+        const Hostle1 = document.getElementById('Hostle1');
+        const Hostle2 = document.getElementById('Hostle2');
+        const Hostle3 = document.getElementById('Hostle3');
+
+        const hostle_card1 = document.getElementById('Hostle-Card-1');
+        const hostle_card2 = document.getElementById('Hostle-Card-2');
+        const hostle_card3 = document.getElementById('Hostle-Card-3');
+
+        Hostle1.addEventListener('click', () => {
+            console.log('Hostle clicked');
+            hostle_card1.style.display = 'block';
+            hostle_card2.style.display = 'none';
+            hostle_card3.style.display = 'none';
+
+            Hostle1.style.borderBottom = '2px solid blue';
+            Hostle2.style.borderBottom = 'none';
+            Hostle3.style.borderBottom = 'none';
+
+            Hostle1.style.color = 'blue';
+            Hostle2.style.color = '#69707a';
+            Hostle3.style.color = '#69707a';
+
+
+        });
+        // hostle1.onclick = function(){
+        //     console.log('Hostle in click by 2');
+        // }
+
+        Hostle2.addEventListener('click', () => {
+            hostle_card1.style.display = 'none';
+            hostle_card2.style.display = 'block';
+            hostle_card3.style.display = 'none';
+        
+            Hostle1.style.borderBottom = 'none';
+            Hostle2.style.borderBottom = '2px solid blue';
+            Hostle3.style.borderBottom = 'none';
+
+            Hostle1.style.color = '#69707a';
+            Hostle2.style.color = 'blue';
+            Hostle3.style.color = '#69707a';
+        });
+
+        Hostle3.addEventListener('click', () => {
+            hostle_card1.style.display = 'none';
+            hostle_card2.style.display = 'none';
+            hostle_card3.style.display = 'block';
+        
+            Hostle1.style.borderBottom = 'none';
+            Hostle2.style.borderBottom = 'none';
+            Hostle3.style.borderBottom = '2px solid blue';
+
+            Hostle1.style.color = '#69707a';
+            Hostle2.style.color = '#69707a';
+            Hostle3.style.color = 'blue';
+        });
+    </script>
+</body>
+</html>

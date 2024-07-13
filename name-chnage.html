@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SRM STUDENT</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'> -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="maidiv">
+        <div class="navbar">
+            <div class="banner">
+                <img src="/img/srmist.jpg" alt="">
+                <p>Student portal</p>
+            </div>
+            <div class="logout">
+                <i class="fa-solid fa-right-from-bracket"></i>
+                <p>Log-Out</p>
+            </div>
+            <div class="hamburger">
+                <i class="fa-solid fa-bars" id="menubar"></i>
+            </div>
+        </div>
+        <div class="content" style="height: 850px;" >
+            <div class="sidebar" id="sidebar">
+                <div class="scrollbox">
+                    <div class="scrollbox2">
+                        <div class="scrollbox-inner">
+                            <a href="/index.html"><i class="fa-solid fa-gauge"></i><p>Dashboard</p></a>
+                            <a href="/fees-payment.html"><i class="fa-regular fa-newspaper"></i><p>Fee Payment</p></a>
+                            <a href="/personal_detail.html"><i class="fa-solid fa-user"></i></i><p>Personal Details</p></a>
+                            <a href="/Scholarship_Renewal_Process.html"><i class="fa-regular fa-newspaper"></i><p>Scholarship Renewal Process</p></a>
+                            <a href="/End_sem_feedback.html"><i class="fa-regular fa-newspaper"></i><p>End Sem Feedback</p></a>
+                            <a href="/Course-list.html"><i class="fa-solid fa-book"></i><p>Course List</p></a>
+                            <a href="/Grade-marks.html"><i class="fa-regular fa-newspaper"></i><p>Grade / Mark & Credit</p></a>
+                            <a href="/Exam-revalution.html"><i class="fa-regular fa-newspaper"></i><p>Exam Revaluation Results</p></a>
+                            <a href="/Attendance.html"><i class="fa-solid fa-calculator"></i><p>Attendance Details</p></a>
+                            <a href="/provitonal-result.html"><i class="fa-regular fa-newspaper"></i></i><p>Exam Provisional Results</p></a>
+                            <a href="/timetable.html"><i class="fa-solid fa-clock"></i><p>Timetable</p></a>
+                            <a href="/internal-marks.html"><i class="fa-solid fa-server"></i><p>Internal Mark Details</p></a>
+                            <a href="/Hostel_booking.html"><i class="fa-solid fa-bed"></i><p>Hostel Booking</p></a>
+                            <a href="/Hostel_details.html"><i class="fa-solid fa-bed"></i><p>Hostel Details</p></a>
+                            <a href="Transport-details.html"><i class="fa-solid fa-bus"></i><p>Transport Details</p></a>
+                            <a href="/Finance-details.html"><i class="fa-solid fa-receipt" style="margin-left: 3px;"></i><p style="margin-left: 3px;">Finance Details</p></a>
+                            <a href="/ABC-card.html"><i class="fa-solid fa-book" style="margin-left: 3px;"></i><p>ABC Entry Request</p></a>
+                            <a href="/exam-hallticket.html"><i class="fa-regular fa-newspaper margin-left3px" ></i><p>Exam HallTicket</p></a>
+                            <a href="/photo-degree-certificate.html"><i class="fa-regular fa-newspaper margin-left3px" ></i><p>Photo for Degree certificate</p></a>
+                            <a href="/Subscribe-request.html"><i class="fa-regular fa-newspaper margin-left3px" ></i><p>Scribe Request</p></a>
+                            <a href="/rrrr.html"><i class="fa-regular fa-newspaper margin-left3px" ></i><p>Review/Revaluation/Retotaling Registration</p></a>
+                            <a href="/name-chnage.html"><i class="fa-regular fa-newspaper margin-left3px" ></i><p> Name Change - Gazette </p></a>
+                            <a href="/Community.html"><i class="fa-solid fa-file margin-left:3px" ></i><p>Community Certificate </p></a>
+                            <a href="/Student-review-feedback.html"><i class="fa-solid fa-user margin-left:3px" ></i><p>Student Review Feedback  </p></a>
+                            <a href="#"><i class="fa-solid fa-right-from-bracket margin-left:3px" ></i><p>Logout </p></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="down-sidebar" style="padding: 12px 12px; margin-top: 10px; height: 84px; width: 230px; background-color: rgba(33, 40, 50, 0.05);">
+                    <p style="font-size: 11.3px; color: #69707a;">RA2332241010360</p>
+                    <p style="font-size: 11.3px; color: #69707a;">UDIT SINGH</p>
+                    <p style="margin-top: 5px; color: #212832; font-size: 13.5px; font-weight: 500;">Wed 10-jul-2024</p>
+                </div>
+            </div>
+            <div class="dashboard" style="padding-top: 55px; height: 1350px; width: 100%;">
+                <div class="name-change-nav" style="background-color: white; border-radius: 4px; width: 85%; height: 74px; margin-top: 20px;  display: flex; flex-direction: column;">
+                    <div style="display: flex;" >
+                        <div id="History" style="font-size: 14px; color: blue; padding: 7.5px 0px; margin: 0px 15px; font-weight: 500; border-bottom: 2px solid blue;">Request History</div>
+                        <div id="New" style="font-size: 14px; color: #69707a; padding: 7.5px 0px; margin: 0px 15px; font-weight: 500;">New Request</div>
+                    </div>
+                    <div style="display: flex;">
+                        <div id="Payment" style="font-size: 14px; color: #69707a; padding: 7.5px 0px; margin: 0px 15px; font-weight: 500;">Payment History</div>
+                    </div>
+                </div>
+
+                <div id="namechange-request-card" style="width: 85%; background-color: white; margin-top: 10px; border-radius: 5px; box-shadow: 1px 1px 20px rgb(211, 210, 210); margin-left: 10px;">
+                    <div class="rrrr-header" style="height: 51px; font-size: 13.5px; color: white; background-color: #337ab7; font-weight: 500; display: flex; align-items: center; padding: 10px 10px 10px 10px; border-top-left-radius: 5px; border-top-right-radius: 5px;">
+                        <p>Name Change - Gazette Request History</p>
+                    </div>
+
+                    <div class="failed-subject-content" style="display: flex; flex-direction: column; overflow: scroll; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; padding:20.25px 10px 40.25px 10px">
+                        <div style="display: flex; background-color: #ccdffc; width: 548px;">
+                            <p style="padding: 11px 20px; font-weight: 600; border-right: 2px solid white; color: #00327e; font-size: 12.75px;"><br><br><br>S.No</p>
+                            <p style="padding: 11px 20px; font-weight: 600; border-right: 2px solid white; color: #00327e; font-size: 12.75px;"><br><br>Reference <br> Number</p>
+                            <p style="padding: 11px 20px; font-weight: 600; border-right: 2px solid white; color: #00327e; font-size: 12.75px;"><br><br>Amount <br> paid</p>
+                            <p style="padding: 11px 20px; font-weight: 600; border-right: 2px solid white; color: #00327e; font-size: 12.75px;">Applied <br> date and <br> time</p>
+                            <p style="padding: 11px 20px; font-weight: 600; border-right: 2px solid white; color: #00327e; font-size: 12.75px;"><br><br><br>Status</p>
+                            <p style="padding: 11px 20px; font-weight: 600; border-right: 2px solid white; color: #00327e; font-size: 12.75px;"><br><br><br>Remark</p>
+                        </div>
+                        <div style="width: 548px;"><p style="margin-left: 220px; font-size: 12px; padding: 11px 20px; color: #69707a; ">No record found</p></div>
+
+                    </div>
+                </div>
+
+
+                <div id="namechange-payment-card" style="width: 85%; background-color: white; margin-top: 10px; border-radius: 5px; box-shadow: 1px 1px 20px rgb(211, 210, 210); margin-left: 10px;">
+                    <div class="rrrr-header" style="height: 51px; font-size: 13.5px; color: white; background-color: #00cfd5; font-weight: 500; display: flex; align-items: center; padding: 10px 10px 10px 10px; border-top-left-radius: 5px; border-top-right-radius: 5px;">
+                        <p>Payment - Transaction Details</p>
+                    </div>
+
+                    <div class="failed-subject-content" style="display: flex; flex-direction: column; overflow: scroll; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; padding:20.25px 10px 40.25px 10px">
+                        <div style="display: flex; background-color: #c9e1e1; width: 850px; border-bottom: 2px solid #ccdffc;">
+                            <p style="padding: 11px 20px; font-weight: 600; color: #006c6f; font-size: 12.75px;">Verify</p>
+                            <p style="padding: 11px 20px; font-weight: 600; color: #006c6f; font-size: 12.75px;">Student ID</p>
+                            <p style="padding: 11px 20px; font-weight: 600; color: #006c6f; font-size: 12.75px;">SRM Transaction Id</p>
+                            <p style="padding: 11px 20px; font-weight: 600; color: #006c6f; font-size: 12.75px;">Bank Transaction Id</p>
+                            <p style="padding: 11px 20px; font-weight: 600; color: #006c6f; font-size: 12.75px;">Total Amount (Rs.)</p>
+                            <p style="padding: 11px 20px; font-weight: 600; color: #006c6f; font-size: 12.75px;">Payment Status</p>
+                            <p style="padding: 11px 20px; font-weight: 600; color: #006c6f; font-size: 12.75px;">Transection Date</p>
+                            <p style="padding: 11px 20px; font-weight: 600; color: #006c6f; font-size: 12.75px;">Payment Gateway</p>
+                        </div>
+                        <div style="width: 600px;"><p style="margin-left: 320px; font-size: 12px; padding: 11px 20px; color: #69707a; ">No record found</p></div>
+
+                    </div>
+                </div>
+
+
+
+
+                <div id="namechange-new-request-card" style="width: 85%; background-color: white; margin-top: 10px; border-radius: 5px; box-shadow: 1px 1px 20px rgb(211, 210, 210); margin-left: 10px;">
+                    <div class="rrrr-header" style="height: 51px; font-size: 13.5px; color: white; background-color: #337ab7; font-weight: 500; display: flex; align-items: center; padding: 10px 10px 10px 10px; border-top-left-radius: 5px; border-top-right-radius: 5px;">
+                        <p>Name Change - Gazette Application</p>
+                    </div>
+
+                    <div class="failed-subject-content" style=" border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; padding-bottom: 10px; ">
+                        <img style="width: 100%;" src="/name-change2.jpg" alt="name-change">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        const menuIcon = document.getElementById('menubar');
+        const sidebar = document.getElementById('sidebar');
+        const colorbg = document.getElementById('bgcolor');
+        const scrollbox = document.getElementById('scrollbox')
+
+        menuIcon.addEventListener('click', () => {
+            if (sidebar.style.left === '-250px') {
+                sidebar.style.left = '0';
+                // colorbg.style.opacity = 0.22;
+                scrollbox.style.paddingRight = '4px'
+                
+            } else {
+                sidebar.style.left = '-250px';
+                // colorbg.style.opacity = 1;
+                scrollbox.style.paddingRight = '0px'
+            }
+        });
+
+        const history = document.getElementById('History');
+        const new_req = document.getElementById('New');
+        const payment = document.getElementById('Payment');
+
+        const history_card = document.getElementById('namechange-request-card');
+        const new_req_card = document.getElementById('namechange-new-request-card');
+        const payment_card = document.getElementById('namechange-payment-card');
+
+        new_req.addEventListener('click', ()=>{
+            history_card.style.display = 'none';
+            new_req_card.style.display = 'block';
+            payment_card.style.display = 'none';
+            new_req.style.color = 'blue';
+            new_req.style.borderBottom = '2px solid blue';
+            history.style.color = '#69707a';
+            history.style.borderBottom = 'none';
+            payment.style.color = '#69707a';
+            payment.style.borderBottom = 'none';
+        });
+
+
+        payment.addEventListener('click', (event) => {
+            history_card.style.display = 'none';
+            new_req_card.style.display = 'none';
+            payment_card.style.display = 'block';
+            payment.style.color = 'blue';
+            payment.style.borderBottom = '2px solid blue';
+            new_req.style.color = '#69707a';
+            new_req.style.borderBottom = 'none';
+            history.style.color = '#69707a';
+            history.style.borderBottom = 'none';
+        });
+
+        history.addEventListener('click', (event) => {
+            history_card.style.display = 'block';
+            new_req_card.style.display = 'none';
+            payment_card.style.display = 'none';
+            history.style.color = 'blue';
+            history.style.borderBottom = '2px solid blue';
+            new_req.style.color = '#69707a';
+            new_req.style.borderBottom = 'none';
+            payment.style.color = '#69707a';
+            payment.style.borderBottom = 'none';
+        });
+
+    </script>
+</body>
+</html>
